@@ -33,7 +33,7 @@ Alexey Melezhik
 
 # See also
 
-[aws-run-instance ](https://sparrowhub.org/info/aws-run-instance) - sparrow plugin to run ec2 instances (optionally with some tags attached )
+[aws-run-instance ](https://sparrowhub.org/info/aws-run-instance) - sparrow plugin to run ec2 instances ( optionally with some tags attached )
 
 # Prerequisites
 
