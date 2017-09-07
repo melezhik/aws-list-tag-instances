@@ -1,6 +1,6 @@
 # SYNOPSIS
 
-Sparrow plugin to list tagged ec2 instances
+Sparrow plugin to list tagged ec2 instances in human readable format.
 
 
 # INSTALL
@@ -10,7 +10,7 @@ Sparrow plugin to list tagged ec2 instances
 
 # USAGE
 
-To dump your tagged ec2 instances in JSON format just run:
+To dump your tagged ec2 instances in human readable format just run:
 
 
     $ sparrow plg run  aws-list-tag-instances --param tag_key=foo --param tag_value=bar
