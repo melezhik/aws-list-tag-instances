@@ -21,7 +21,7 @@ ID                        Public IP           Private IP          Time          
 
 format STDOUT  =
 @<<<<<<<<<<<<<<<<<<<<<<<< @<<<<<<<<<<<<<<<<<< @<<<<<<<<<<<<<<<<<< @>>>>>>>>>>>>>>>>>>   @<<<<<<<<<<<<<<<<< ~
-$i->{ID},  $i->{IP2}||'Null', $i->{Time}, join "/", ($i->{St}{Code}, $i->{St}{Name})
+$i->{ID},  $i->{IP}||'Null', $i->{IP2}||'Null', $i->{Time}, join "/", ($i->{St}{Code}, $i->{St}{Name})
 .
 
 '
